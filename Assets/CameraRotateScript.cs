@@ -23,7 +23,8 @@ public class CameraRotateScript : MonoBehaviour
     void Update()
     {
         y = Input.GetAxis("Mouse X");
-        x = Input.GetAxis("Mouse Y");
+        // x = Input.GetAxis("Mouse Y");
+        x = 0;
         rotate = new Vector3(x, y * sensitivity, 0);
         transform.eulerAngles = transform.eulerAngles - rotate;
     }

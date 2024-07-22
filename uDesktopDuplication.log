@@ -1,17 +1,17 @@
-[uDD::Log][2024-07-22 10:24:34] Start
-[uDD::Log][2024-07-22 10:24:34] OS Version    : 10.0
-[uDD::Log][2024-07-22 10:24:34] Build Number  : 22631
-[uDD::Log][2024-07-22 10:24:34] Service Pack  : 
-[uDD::Log][2024-07-22 10:24:34] Graphics Card [0] : Intel(R) Arc(TM) Graphics
-[uDD::Log][2024-07-22 10:24:34]   > Monitor[0] : \\.\DISPLAY1
-[uDD::Log][2024-07-22 10:24:34] Graphics Card [1] : NVIDIA GeForce RTX 4070 Laptop GPU
-[uDD::Log][2024-07-22 10:24:34] Graphics Card [2] : Intel(R) Arc(TM) Graphics
-[uDD::Log][2024-07-22 10:24:34] Graphics Card [3] : Intel(R) Arc(TM) Graphics
-[uDD::Log][2024-07-22 10:24:34] Graphics Card [4] : Microsoft Basic Render Driver
-[uDD::Log][2024-07-22 10:24:34] Monitor::Initialized() =>
-[uDD::Log][2024-07-22 10:24:34]     ID    : 0
-[uDD::Log][2024-07-22 10:24:34]     Size  : (2560, 1600)
-[uDD::Log][2024-07-22 10:24:34]     DPI   : (189, 189)
-[uDD::Log][2024-07-22 10:24:34]     Rot   : Landscape
-[uDD::Log][2024-07-22 10:24:34] Duplicator::Initialize() => OK.
-[uDD::Log][2024-07-22 10:24:45] Stop
+[uDD::Log][2024-07-22 11:45:12] Start
+[uDD::Log][2024-07-22 11:45:12] OS Version    : 10.0
+[uDD::Log][2024-07-22 11:45:12] Build Number  : 22631
+[uDD::Log][2024-07-22 11:45:12] Service Pack  : 
+[uDD::Log][2024-07-22 11:45:12] Graphics Card [0] : Intel(R) Arc(TM) Graphics
+[uDD::Log][2024-07-22 11:45:12]   > Monitor[0] : \\.\DISPLAY1
+[uDD::Log][2024-07-22 11:45:12] Graphics Card [1] : NVIDIA GeForce RTX 4070 Laptop GPU
+[uDD::Log][2024-07-22 11:45:12] Graphics Card [2] : Intel(R) Arc(TM) Graphics
+[uDD::Log][2024-07-22 11:45:12] Graphics Card [3] : Intel(R) Arc(TM) Graphics
+[uDD::Log][2024-07-22 11:45:12] Graphics Card [4] : Microsoft Basic Render Driver
+[uDD::Log][2024-07-22 11:45:12] Monitor::Initialized() =>
+[uDD::Log][2024-07-22 11:45:12]     ID    : 0
+[uDD::Log][2024-07-22 11:45:12]     Size  : (2560, 1600)
+[uDD::Log][2024-07-22 11:45:12]     DPI   : (189, 189)
+[uDD::Log][2024-07-22 11:45:12]     Rot   : Landscape
+[uDD::Log][2024-07-22 11:45:12] Duplicator::Initialize() => OK.
+[uDD::Log][2024-07-22 11:45:37] Stop
