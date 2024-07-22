@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/uDesktopDuplication/Samples/01. Basic/Multiple Monitors Roundly.unity
+    guid: 4bae91f55031b98488c9e668031f7387
+  - enabled: 0
+    path: Assets/uDesktopDuplication/Samples/01. Basic/Multiple Monitors.unity
+    guid: 445860b05342be845967392bfd70224e
+  m_configObjects: {}
