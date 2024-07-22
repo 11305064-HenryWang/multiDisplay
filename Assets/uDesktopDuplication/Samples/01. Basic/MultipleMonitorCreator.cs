@@ -37,6 +37,8 @@ public class MultipleMonitorCreator : MonoBehaviour
     bool hasMonitorUnsupportStateChecked_ = false;
     float removeWaitTimer_ = 0f;
 
+    [SerializeField] private int disableIndex = 1;
+
     public class MonitorInfo
     {
         public GameObject gameObject { get; set; }
@@ -118,7 +120,7 @@ public class MultipleMonitorCreator : MonoBehaviour
             // Create monitor obeject
             var go = Instantiate(monitorPrefab);
             go.name = uDesktopDuplication.Manager.monitors[i].name;
-
+            Debug.Log(go.name);
             // Saved infomation
             if (savedInfoList.Count == i) {
                 savedInfoList.Add(new SavedMonitorInfo());
@@ -169,9 +171,11 @@ public class MultipleMonitorCreator : MonoBehaviour
 
             // Save
             var monitor_ = uDesktopDuplication.Manager.monitors[i];
-            var info = new MonitorInfo();
-            info.gameObject = go;
-            if (i == 1) {
+            var info = new MonitorInfo
+            {
+                gameObject = go
+            };
+            if (i == disableIndex) {
                 info.gameObject.SetActive(false);
             }
             info.originalRotation = go.transform.rotation;
